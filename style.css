@@ -10,7 +10,7 @@ body {
 }
 nav {
   display: flex;
-  height: 100px;
+  height: 90px;
   justify-content: space-between;
 
   padding: 0 40px;
@@ -40,7 +40,7 @@ ul {
   cursor: pointer;
 }
 .dropdown-container {
-  background-color: red;
+  background-color: white;
   position: relative;
   cursor: pointer;
 }
@@ -79,7 +79,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr ;
 height: 100vh;
 padding: 30px;
 gap: 20px;
-background-color: red;
+background-color: white;
 }
 section div{
     width: 100% !important;
@@ -96,3 +96,26 @@ section div{
     grid-column: 1/ 2 span;
     grid-row: 2/3;
 }
+
+
+
+
+
+section {
+  background-image: url(Cote_D_Ivoire_boat_launch.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 140vh;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 0 15%;
+  text-align: center;
+  color: var(--white);
+  @media (max-width:800px) {
+    padding: 0 5%;
+    height: 110vh;
+  }
